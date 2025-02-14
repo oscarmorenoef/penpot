@@ -33,6 +33,7 @@
    [debug]
    [features]
    [potok.v2.core :as ptk]
+   ["./uxmaltech/index.js" :as uxmal]
    [rumext.v2 :as mf]))
 
 (log/setup! {:app :info})
